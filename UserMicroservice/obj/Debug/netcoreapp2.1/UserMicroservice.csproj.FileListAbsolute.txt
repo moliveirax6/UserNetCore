@@ -1,0 +1,14 @@
+C:\Projetos\UserNetCore\UserMicroservice\bin\Debug\netcoreapp2.1\UserMicroservice.deps.json
+C:\Projetos\UserNetCore\UserMicroservice\bin\Debug\netcoreapp2.1\UserMicroservice.runtimeconfig.json
+C:\Projetos\UserNetCore\UserMicroservice\bin\Debug\netcoreapp2.1\UserMicroservice.runtimeconfig.dev.json
+C:\Projetos\UserNetCore\UserMicroservice\bin\Debug\netcoreapp2.1\UserMicroservice.dll
+C:\Projetos\UserNetCore\UserMicroservice\bin\Debug\netcoreapp2.1\UserMicroservice.pdb
+C:\Projetos\UserNetCore\UserMicroservice\obj\Debug\netcoreapp2.1\UserMicroservice.csproj.CoreCompileInputs.cache
+C:\Projetos\UserNetCore\UserMicroservice\obj\Debug\netcoreapp2.1\UserMicroservice.RazorAssemblyInfo.cache
+C:\Projetos\UserNetCore\UserMicroservice\obj\Debug\netcoreapp2.1\UserMicroservice.RazorAssemblyInfo.cs
+C:\Projetos\UserNetCore\UserMicroservice\obj\Debug\netcoreapp2.1\UserMicroservice.AssemblyInfoInputs.cache
+C:\Projetos\UserNetCore\UserMicroservice\obj\Debug\netcoreapp2.1\UserMicroservice.AssemblyInfo.cs
+C:\Projetos\UserNetCore\UserMicroservice\obj\Debug\netcoreapp2.1\UserMicroservice.RazorTargetAssemblyInfo.cache
+C:\Projetos\UserNetCore\UserMicroservice\obj\Debug\netcoreapp2.1\UserMicroservice.dll
+C:\Projetos\UserNetCore\UserMicroservice\obj\Debug\netcoreapp2.1\UserMicroservice.pdb
+C:\Projetos\UserNetCore\UserMicroservice\obj\Debug\netcoreapp2.1\UserMicroservice.csprojAssemblyReference.cache

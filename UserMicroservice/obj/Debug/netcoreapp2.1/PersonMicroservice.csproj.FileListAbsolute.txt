@@ -1,0 +1,14 @@
+C:\Projetos\NetCoreSample-master\NetCoreSample-master\NetCoreSample\PersonMicroservice\bin\Debug\netcoreapp2.1\PersonMicroservice.deps.json
+C:\Projetos\NetCoreSample-master\NetCoreSample-master\NetCoreSample\PersonMicroservice\bin\Debug\netcoreapp2.1\PersonMicroservice.runtimeconfig.json
+C:\Projetos\NetCoreSample-master\NetCoreSample-master\NetCoreSample\PersonMicroservice\bin\Debug\netcoreapp2.1\PersonMicroservice.runtimeconfig.dev.json
+C:\Projetos\NetCoreSample-master\NetCoreSample-master\NetCoreSample\PersonMicroservice\bin\Debug\netcoreapp2.1\PersonMicroservice.dll
+C:\Projetos\NetCoreSample-master\NetCoreSample-master\NetCoreSample\PersonMicroservice\bin\Debug\netcoreapp2.1\PersonMicroservice.pdb
+C:\Projetos\NetCoreSample-master\NetCoreSample-master\NetCoreSample\PersonMicroservice\obj\Debug\netcoreapp2.1\PersonMicroservice.csprojAssemblyReference.cache
+C:\Projetos\NetCoreSample-master\NetCoreSample-master\NetCoreSample\PersonMicroservice\obj\Debug\netcoreapp2.1\PersonMicroservice.csproj.CoreCompileInputs.cache
+C:\Projetos\NetCoreSample-master\NetCoreSample-master\NetCoreSample\PersonMicroservice\obj\Debug\netcoreapp2.1\PersonMicroservice.RazorAssemblyInfo.cache
+C:\Projetos\NetCoreSample-master\NetCoreSample-master\NetCoreSample\PersonMicroservice\obj\Debug\netcoreapp2.1\PersonMicroservice.RazorAssemblyInfo.cs
+C:\Projetos\NetCoreSample-master\NetCoreSample-master\NetCoreSample\PersonMicroservice\obj\Debug\netcoreapp2.1\PersonMicroservice.AssemblyInfoInputs.cache
+C:\Projetos\NetCoreSample-master\NetCoreSample-master\NetCoreSample\PersonMicroservice\obj\Debug\netcoreapp2.1\PersonMicroservice.AssemblyInfo.cs
+C:\Projetos\NetCoreSample-master\NetCoreSample-master\NetCoreSample\PersonMicroservice\obj\Debug\netcoreapp2.1\PersonMicroservice.RazorTargetAssemblyInfo.cache
+C:\Projetos\NetCoreSample-master\NetCoreSample-master\NetCoreSample\PersonMicroservice\obj\Debug\netcoreapp2.1\PersonMicroservice.dll
+C:\Projetos\NetCoreSample-master\NetCoreSample-master\NetCoreSample\PersonMicroservice\obj\Debug\netcoreapp2.1\PersonMicroservice.pdb

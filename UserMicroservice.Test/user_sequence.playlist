@@ -1,0 +1,8 @@
+<Playlist Version="1.0">
+  <Add Test="PersonMicroservice.Test.PersonControllerTest.CommunicationDb" />
+  <Add Test="PersonMicroservice.Test.PersonControllerTest.GetPersons" />
+  <Add Test="PersonMicroservice.Test.PersonControllerTest.InsertPerson" />
+  <Add Test="PersonMicroservice.Test.PersonControllerTest.UpdatePerson" />
+  <Add Test="PersonMicroservice.Test.PersonControllerTest.LoginPerson" />
+  <Add Test="PersonMicroservice.Test.PersonControllerTest.DeletePerson" />
+</Playlist>
