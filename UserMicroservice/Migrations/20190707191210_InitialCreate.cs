@@ -26,7 +26,7 @@ namespace UserMicroservice.Migrations
             migrationBuilder.InsertData(
                 table: "Users",
                 columns: new[] { "Id", "Email", "Name", "Password", "Token", "UserName" },
-                values: new object[] { 1, "beta.tester@email.com", "Fulano Beta Teste", "321", "", "beta.tester" });
+                values: new object[] { 1, "beta.tester@email.com", "Fulano Beta Teste", "q0jspm", null, "beta.tester" });
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)

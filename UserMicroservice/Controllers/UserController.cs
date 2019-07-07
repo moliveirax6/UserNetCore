@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Configuration;
+using System;
 using UserMicroservice.Models;
 using UserMicroservice.Repository;
 
@@ -59,16 +59,16 @@ namespace UserMicroservice.Controllers
                 _userRepository.InsertUser(user);
                 return CreatedAtAction(nameof(Get), new { id = user.Id }, user);
             }
-            catch
+            catch (Exception e)
             {
                 return StatusCode(500);
             }
         }
 
-        [HttpPost("login")]
+        [HttpPost("authentication")]
         [AllowAnonymous]
-        public UserAuth Login([FromBody] User user)
-        {
+        public UserAuth Authentication([FromBody] User user)
+        { 
             return _userRepository.Login(user);
         }
 

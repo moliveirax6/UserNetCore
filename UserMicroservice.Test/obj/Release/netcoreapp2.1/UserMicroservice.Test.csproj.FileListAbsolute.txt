@@ -1,0 +1,17 @@
+C:\Projetos\UserNetCore\UserMicroservice.Test\bin\Release\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Projetos\UserNetCore\UserMicroservice.Test\bin\Release\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+C:\Projetos\UserNetCore\UserMicroservice.Test\bin\Release\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+C:\Projetos\UserNetCore\UserMicroservice.Test\bin\Release\netcoreapp2.1\UserMicroservice.Test.deps.json
+C:\Projetos\UserNetCore\UserMicroservice.Test\bin\Release\netcoreapp2.1\UserMicroservice.Test.runtimeconfig.json
+C:\Projetos\UserNetCore\UserMicroservice.Test\bin\Release\netcoreapp2.1\UserMicroservice.Test.runtimeconfig.dev.json
+C:\Projetos\UserNetCore\UserMicroservice.Test\bin\Release\netcoreapp2.1\UserMicroservice.Test.dll
+C:\Projetos\UserNetCore\UserMicroservice.Test\bin\Release\netcoreapp2.1\UserMicroservice.Test.pdb
+C:\Projetos\UserNetCore\UserMicroservice.Test\bin\Release\netcoreapp2.1\UserMicroservice.dll
+C:\Projetos\UserNetCore\UserMicroservice.Test\bin\Release\netcoreapp2.1\UserMicroservice.pdb
+C:\Projetos\UserNetCore\UserMicroservice.Test\obj\Release\netcoreapp2.1\UserMicroservice.Test.csprojAssemblyReference.cache
+C:\Projetos\UserNetCore\UserMicroservice.Test\obj\Release\netcoreapp2.1\UserMicroservice.Test.csproj.CoreCompileInputs.cache
+C:\Projetos\UserNetCore\UserMicroservice.Test\obj\Release\netcoreapp2.1\UserMicroservice.Test.AssemblyInfoInputs.cache
+C:\Projetos\UserNetCore\UserMicroservice.Test\obj\Release\netcoreapp2.1\UserMicroservice.Test.AssemblyInfo.cs
+C:\Projetos\UserNetCore\UserMicroservice.Test\obj\Release\netcoreapp2.1\UserMicroservice.Test.csproj.CopyComplete
+C:\Projetos\UserNetCore\UserMicroservice.Test\obj\Release\netcoreapp2.1\UserMicroservice.Test.dll
+C:\Projetos\UserNetCore\UserMicroservice.Test\obj\Release\netcoreapp2.1\UserMicroservice.Test.pdb

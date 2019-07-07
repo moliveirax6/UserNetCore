@@ -35,7 +35,7 @@ namespace UserMicroservice.Migrations
                     b.ToTable("Users");
 
                     b.HasData(
-                        new { Id = 1, Email = "beta.tester@email.com", Name = "Fulano Beta Teste", Password = "321", Token = "", UserName = "beta.tester" }
+                        new { Id = 1, Email = "beta.tester@email.com", Name = "Fulano Beta Teste", Password = "q0jspm", UserName = "beta.tester" }
                     );
                 });
 #pragma warning restore 612, 618

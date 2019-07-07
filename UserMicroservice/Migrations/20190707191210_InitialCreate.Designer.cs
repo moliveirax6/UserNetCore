@@ -8,7 +8,7 @@ using UserMicroservice.DBContexts;
 namespace UserMicroservice.Migrations
 {
     [DbContext(typeof(UserContext))]
-    [Migration("20190706205953_InitialCreate")]
+    [Migration("20190707191210_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -37,7 +37,7 @@ namespace UserMicroservice.Migrations
                     b.ToTable("Users");
 
                     b.HasData(
-                        new { Id = 1, Email = "beta.tester@email.com", Name = "Fulano Beta Teste", Password = "321", Token = "", UserName = "beta.tester" }
+                        new { Id = 1, Email = "beta.tester@email.com", Name = "Fulano Beta Teste", Password = "q0jspm", UserName = "beta.tester" }
                     );
                 });
 #pragma warning restore 612, 618

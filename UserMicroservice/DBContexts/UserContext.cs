@@ -19,9 +19,8 @@ namespace UserMicroservice.DBContexts
                     Id = 1,
                     Name = "Fulano Beta Teste",
                     UserName = "beta.tester",
-                    Password = "321",
-                    Email = "beta.tester@email.com",
-                    Token = ""
+                    Password = "q0jspm",
+                    Email = "beta.tester@email.com"
                 }
             );
         }

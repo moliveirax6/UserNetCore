@@ -15,31 +15,23 @@ using Xunit.Extensions.Ordering;
 namespace UserControllerTest.Test
 {
     [Collection("Sequential")]
-    public class PersonControllerTest
+    public class UserControllerTest
     {
         UserRepository _userRepository;
         private User _user = new User();
-        public PersonControllerTest()
+        public UserControllerTest()
         {
             var optionsBuilder = new DbContextOptionsBuilder<UserContext>();
-            optionsBuilder.UseSqlServer("Server=localhost;DataBase=Devices;Uid=root;");
+            optionsBuilder.UseMySQL("Server=localhost;DataBase=Users;Uid=root;");
 
             var context = new UserContext(optionsBuilder.Options);
             _userRepository = new UserRepository(context);
-            
-            _user.Email = "XXXXXXXXXXX@XXXXXXXXXXX.XXX";
-            _user.Name = "TESTE XXXXXXXXXXXXXXX";
-            _user.Password = "XXXXXXXXXXXXXXXXX";
-        }
 
-        private void CleanTester()
-        {
-            var resp = _userRepository.GetUserByUserName(_user.UserName);
-            while(resp != null)
-            {
-                _userRepository.DeleteUser(resp.Id);
-            }
-        }
+            _user.Name = "NAME TESTER 1";
+            _user.UserName = "USER NAME TESTER 1";
+            _user.Email = "tester.tester@email.com";
+            _user.Password = "t2js2t";
+        }       
 
         [Fact, Order(1)]
         public void CommunicationDb()
@@ -60,7 +52,6 @@ namespace UserControllerTest.Test
         [Fact, Order(3)]
         public void InsertUser()
         {
-            CleanTester();
             _userRepository.InsertUser(_user);
             var resp = _userRepository.GetUserByUserName(_user.UserName);
       
@@ -71,24 +62,16 @@ namespace UserControllerTest.Test
         public void UpdateUser()
         {
             _user = _userRepository.GetUserByUserName(_user.UserName);
-            string newName = "TESTE XXXXXXXXXXXXXXXYYYYYY";
-            _user.Name = newName;
+            string name = "NAME TESTER 1";
+            _user.Name = name;
             _userRepository.UpdateUser(_user);
-            var resp = _userRepository.GetUserById(_user.Id);           
+            _user = _userRepository.GetUserById(_user.Id);           
 
-            Assert.Equal(resp.Name, newName);
+            Assert.Equal(_user.Name, name);
         }
 
         [Fact, Order(5)]
-        public void LoginUser()
-        {
-            var resp = _userRepository.Login(_user);
-
-            Assert.True(resp.Authenticated);
-        }
-
-        [Fact, Order(6)]
-        public void DeletePerson()
+        public void DeleteUser()
         {
             _user = _userRepository.GetUserByUserName(_user.UserName);
             _userRepository.DeleteUser(_user.Id);

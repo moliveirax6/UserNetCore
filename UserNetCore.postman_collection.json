@@ -1,0 +1,229 @@
+{
+	"info": {
+		"_postman_id": "2ead52ba-489c-4c88-b458-3cdb53e86cd9",
+		"name": "UserNetCore",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Authentication",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"Email\": \"beta.tester@email.com\",\n\t\"Password\": \"q0jspm\"\n}\n"
+				},
+				"url": {
+					"raw": "http://localhost:50910/api/user/authentication",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "50910",
+					"path": [
+						"api",
+						"user",
+						"authentication"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetUser",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NjI0NjM0MDYsImlzcyI6IlRlc3QuY29tIiwiYXVkIjoiVGVzdC5jb20ifQ.OCavGkQbV-Dbo-tFsnICsgingqfgaoIptOeAeE5JUjg",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:50910/api/user/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "50910",
+					"path": [
+						"api",
+						"user",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetUsers",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NjI1MzQwMjUsImlzcyI6IlVzZXJOZXRDb3JlIiwiYXVkIjoiVXNlck5ldENvcmUifQ.WTA42iq_7SLB2WaefxlUNm7s0OsDf5rBidxPfn1o4Ww",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:50910/api/user",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "50910",
+					"path": [
+						"api",
+						"user"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "InsertUser",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NjI1MzQyNTcsImlzcyI6IlVzZXJOZXRDb3JlIiwiYXVkIjoiVXNlck5ldENvcmUifQ.i43Gu9S6UAyaaOJzCNzC3xBjDPtg0JjatuYBezlDB7E",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Sicrano Gama Teste\",\n    \"userName\": \"gama.tester\",\n    \"password\": \"t3hit6\",\n    \"email\": \"gama.tester@email.com\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:50910/api/user",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "50910",
+					"path": [
+						"api",
+						"user"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateUser",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NjI1MzQwMjUsImlzcyI6IlVzZXJOZXRDb3JlIiwiYXVkIjoiVXNlck5ldENvcmUifQ.WTA42iq_7SLB2WaefxlUNm7s0OsDf5rBidxPfn1o4Ww",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": 1,\n    \"name\": \"Fulano Beta Test\",\n    \"userName\": \"beta.tester\",\n    \"password\": \"321\",\n    \"email\": \"beta.tester@email.com\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:50910/api/user",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "50910",
+					"path": [
+						"api",
+						"user"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteUser",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NjI1MzQwMjUsImlzcyI6IlVzZXJOZXRDb3JlIiwiYXVkIjoiVXNlck5ldENvcmUifQ.WTA42iq_7SLB2WaefxlUNm7s0OsDf5rBidxPfn1o4Ww",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:50910/api/user/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "50910",
+					"path": [
+						"api",
+						"user",
+						"2"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
