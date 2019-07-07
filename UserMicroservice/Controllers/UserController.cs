@@ -69,7 +69,7 @@ namespace UserMicroservice.Controllers
         [AllowAnonymous]
         public UserAuth Authentication([FromBody] User user)
         { 
-            return _userRepository.Login(user);
+            return _userRepository.Authentication(user);
         }
 
         // PUT: api/User/0

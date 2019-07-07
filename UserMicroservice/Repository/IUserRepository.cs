@@ -15,7 +15,7 @@ namespace UserMicroservice.Repository
         void InsertUser(User user);
         void DeleteUser(int userId);
         void UpdateUser(User user);
-        UserAuth Login(User user);
+        UserAuth Authentication(User user);
         void Save();
     }
 }

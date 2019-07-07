@@ -63,16 +63,16 @@ namespace UserMicroservice.Repository
             Save();
         }
 
-        public UserAuth Login(User user)
+        public UserAuth Authentication(User user)
         {
             UserAuth result = new UserAuth();
             try
             {
-                var comparator = _dbContext.Users.SingleOrDefault(p => p.Email == user.Email);
+                var comparator = _dbContext.Users.SingleOrDefault(p => p.UserName == user.UserName);
                 if (comparator == null || comparator.Id < 1)
                 {
                     result.Authenticated = false;
-                    result.Error = "E-mail inválido !";
+                    result.Error = "Usuário inválido !";
                 }
                 else if (comparator.Password != user.Password)
                 {
@@ -82,7 +82,7 @@ namespace UserMicroservice.Repository
                 else
                 {
                     result.Name = comparator.Name;
-                    result.UserName = comparator.UserName;
+                    result.Email = comparator.Email;
                     result.Id = comparator.Id;
                     result.Authenticated = true;
                     result.Token = GenerateJSONWebToken();
